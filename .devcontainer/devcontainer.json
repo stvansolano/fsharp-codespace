@@ -2,7 +2,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.134.1/containers/docker-from-docker-compose
 {
-	"name": "Docker from Docker Compose + Kubernetes & Helm",
+	"name": "Custom container for F#",
 	"dockerFile": "Dockerfile",
 	//"dockerComposeFile": [
 	//	"docker-compose.yml"]
@@ -41,8 +41,8 @@
 		"vscode-icons-team.vscode-icons",
 		"visualstudioexptteam.vscodeintellicode",
 		"ms-azuretools.vscode-docker",
-		"ms-kubernetes-tools.vscode-kubernetes-tools",
-		"ms-mssql.mssql"
+		"vscode-icons-team.vscode-icons",
+		"ionide.ionide-fsharp"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
